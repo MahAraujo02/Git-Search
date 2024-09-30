@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    font-family:"Inter", sans-serif;
+}
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+.section__1{
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.section__2{
+    background-color: var(--grey-color-1);
+    justify-content: center;
+}
+.title{
+    font-size: var(--text-size-0);
+    color: var(--grey-color-6);
+    font-weight: var(--font-weight-3);
+}
+.description{
+    font-size: var(--text-size-3);
+    color: var(--grey-color-6);
+    font-weight: var(--font-weight-2);
+    line-height: 1.5rem;
+}
+.title_and_description{
+    width: 50%;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+    bottom: 2.2rem;
+}
+.search_and_form{
+    color: var(--grey-color-6);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+}.flex{
+    display: flex;
+}
+.form{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+.search_button{
+    color: var(--grey-color-6);
+    background-color: var(--color-secondary);
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: .25rem;
+}
+.search_input::placeholder{
+    color: var(--grey-color-4);
+}
+.search_input{
+    background-color: var(--grey-color-0);
+    outline: none;
+    color: var(--grey-color-6);
+    border: 1px solid var(--grey-color-3);
+    padding: .5rem 1rem;
+    border-radius: .25rem;
+    width: 16rem;
+}
+.search-title{
+    align-self: flex-start;
+    font-weight: var(--font-weight-1);
+    font-size: var(--text-size-2);
+}
+.label {
+    font-size: var(--text-size-3);
+}

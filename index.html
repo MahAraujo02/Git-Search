@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>usuario:</h1>
-        <input type="text">
-        <button>Ir para outra página</button>
+    <link rel="stylesheet" href="/src/styles/index.css">
+    <link rel="stylesheet" href="/src/styles/globalStyles.css">
+  </head>
+  <body>
+    <main class="main">
+      <section class="section section__1 flex">
+        <div class="title_and_description flex">
+          <h1 class="title">Git Search</h1>
+          <p class="description">Encontre e se conecte com profissionais de forma mais rapida e facil</p>
+        </div>
+      </section>
+      <section class="section section__2 flex">
+        <div class="search_and_form flex">
+          <h1 class="search-title">Procurar por um usuario</h1>
+          <div class="form">
+            <label class="label" for="">Usuario github</label>
+            <input
+              class="search_input"
+              type="text"
+              placeholder="Digite um usuario do github aqui..."
+            />
+            <button class="search_button">Ver perfil do github</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
     <script type="module" src="src/scripts/index.js"></script>
-   
-    
-</body>
+  </body>
 </html>

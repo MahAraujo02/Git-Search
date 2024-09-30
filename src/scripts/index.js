@@ -1,4 +1,5 @@
-import { requisitionApi } from './data.js'
+import { requisitionApi, requisitionProfile } from './requestProfileAndRepos.js'
+
 
 
 const getName = () => {
@@ -10,9 +11,11 @@ button.addEventListener('click', async () => {
     localStorage.setItem('userName', name)
     
     requisitionApi()
+    requisitionProfile()
 })
 }
 getName()
+
 
 
 
