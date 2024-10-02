@@ -24,12 +24,12 @@ header{
 }
 .button__change__user{
     background-color: #FFFFFF14;
-    ;
     color: var(--grey-color-6);
     border-radius: .4rem;
     padding: .5rem 1.5rem;
     border: none;
     font-weight: var(--font-weight-5);
+    text-decoration: none;
 }
 .div__header{
     display: flex;

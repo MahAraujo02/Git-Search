@@ -5,6 +5,7 @@
     justify-content: center;
 }
 .container{
+    box-sizing: border-box;
     width: 50%;
     height: 100%;
     margin-bottom: 5rem;
@@ -17,6 +18,7 @@
     gap: 1rem;
 }
 .repo{
+    box-sizing: border-box;
     width: 100%;
     height: 100%;
     border: 2px solid #FFFFFF1A;
@@ -25,7 +27,11 @@
     justify-content: center;
     align-items: center;
 }
+.repo:hover{
+    border: 2px solid var(--color-secondary);
+}
 .repo__info{
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -53,4 +59,8 @@
     border-radius: .25rem;
     width: fit-content;
     border: .063rem solid var(--grey-color-6);
+}
+.repo__link:hover{
+    background-color: var(--color-secondary);
+    border-color: transparent;
 }
